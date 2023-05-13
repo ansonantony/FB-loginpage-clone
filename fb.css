@@ -58,18 +58,23 @@ body{
     height: 902px;
 }
 .left-part{
-    float: left;
     margin-left: 161px;
+    display: inline-block;
+    width: 408px;
 }
 
 .fb-text{
     font-size: 19px;
-    font-weight: bold;
-    color: #273a3f;
-    padding-left: 87px;
+font-weight: bold;
+color: #273a3f;
+padding-left: 100px;
+position: relative;
+bottom: 50px;
 }
+
 .right-part{
-    float: left;
+    display: inline-block;
+/*     float: left; */
     margin-left: 243px;
 }
 .name{
